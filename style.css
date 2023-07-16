@@ -4,6 +4,8 @@
 
 body {
   width: 1200px;
+  padding: 0;
+  margin: 0;
 }
 
 header div {
@@ -23,11 +25,11 @@ header img {
 }
 
 h1 {
-  font-size: medium;
+  font-size: larger;
   text-transform: uppercase;
   margin: 20px;
   color: #373032;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p {
@@ -80,7 +82,33 @@ article {
   width: 95%;
 }
 
+.center {
+  text-align: center;
+}
+
 main section {
   display: flex;
   flex-direction: row;
+}
+
+.col3 img {
+  width: 95%;
+  margin: 10px;
+}
+
+main section:last-child h1 {
+  text-transform: capitalize;
+  font-size: large;
+}
+
+main section button {
+  margin-left: 20px;
+}
+
+footer p {
+  color: #706e6c;
+}
+
+footer button {
+  margin-left: 20px;
 }
